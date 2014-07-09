@@ -1,0 +1,38 @@
+<!doctype html>
+<html ng-app="plunker">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.js"></script>
+    <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.0.js"></script>
+    <script src="modal.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  
+
+<div ng-controller="ModalDemoCtrl" ng-click="cancel()">
+   <div ng-click="open()">Open me!</div>                      
+</div>
+
+  
+  
+</html>
+
+
+
+
+
+<script 
+        type  ="text/ng-template" 
+        id    ="myModalContent.html">
+          <div align="center">I'm a modal!
+          </div>
+            <div>
+                Selected: {{ selected.item }}</br>
+                Selected: {{ selected.item }}</br>
+                Selected: {{ selected.item }}</br>
+                Selected: {{ selected.item }}</br>
+                Selected: {{ selected.item }}</br>
+                Selected: {{ selected.item }}</br>
+            </div>
+              
+              
+</script>
